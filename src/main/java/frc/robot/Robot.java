@@ -58,19 +58,7 @@ public class Robot extends TimedRobot {
   }
 
   @Override
-  public void autonomousPeriodic() {
-    double autoTimeElapsed = Timer.getFPGATimestamp() - autoStart;
-      
-      Double autoCode = 1.0;
-     
-    if(autoCode == 1) {
-
-      if(autoTimeElapsed<1.0) {}
-
-      else {}
-
-    } 
-  }
+  public void autonomousPeriodic() {}
 
   @Override
   public void testInit() {
